@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laman Soal dan Form Data Diri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #666;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        .form-container {
+            margin-top: 20px;
+        }
+        .form-container input {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+        }
+        .submit-btn {
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .submit-btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Soal-soal Laporan Teori</h1>
+
+    <h2>1. Pertanyaan seputar Tag</h2>
+    <ul>
+        <li>Apa yang dimaksud dengan tag pada HTML?</li>
+        <li>Apa itu pembuka dan penutup tag? Apakah hal tersebut terdapat pada semua jenis tag?</li>
+    </ul>
+
+    <h2>2. Pertanyaan seputar Elemen</h2>
+    <ul>
+        <li>Apa yang dimaksud dengan elemen?</li>
+        <li>Apa yang dimaksud dengan tagname, attribute, dan content pada elemen?</li>
+        <li>Apakah elemen dapat ditumpuk? Apa yang terjadi bila demikian?</li>
+    </ul>
+
+    <h2>3. Pertanyaan seputar Anchor</h2>
+    <ul>
+        <li>Apa yang dimaksud dengan anchor?</li>
+        <li>Bagaimana caranya anchor dapat berfungsi, baik dari sisi pendefinisian maupun pengaplikasiannya?</li>
+    </ul>
+
+    <h2>4. Pertanyaan seputar Multimedia</h2>
+    <ul>
+        <li>Sebutkan tag yang dapat digunakan untuk memanipulasi konten teks pada HTML!</li>
+        <li>Sebutkan tag yang dapat digunakan untuk memanipulasi struktur konten teks pada HTML!</li>
+    </ul>
+
+    <h2>Contoh Tag dan Fungsinya</h2>
+    <table>
+        <tr>
+            <th>Tag</th>
+            <th>Fungsi</th>
+        </tr>
+        <tr>
+            <td>&lt;h1&gt; hingga &lt;h6&gt;</td>
+            <td>Membuat heading atau judul dengan tingkat kepentingan yang berbeda.</td>
+        </tr>
+        <tr>
+            <td>&lt;p&gt;</td>
+            <td>Membuat paragraf.</td>
+        </tr>
+        <tr>
+            <td>&lt;br&gt;</td>
+            <td>Menambahkan jeda baris dalam teks.</td>
+        </tr>
+        <tr>
+            <td>&lt;img&gt;</td>
+            <td>Menampilkan gambar.</td>
+        </tr>
+        <tr>
+            <td>&lt;ul&gt; dan &lt;ol&gt;</td>
+            <td>Membuat daftar tidak terurut dan terurut.</td>
+        </tr>
+    </table>
+
+    <h2>Form Data Diri</h2>
+    <div class="form-container">
+        <form action="celebration-gif.html" method="GET">
+            <table>
+                <tr>
+                    <th>Nama</th>
+                    <td><input type="text" name="nama" required></td>
+                </tr>
+                <tr>
+                    <th>NIM</th>
+                    <td><input type="text" name="nim" required></td>
+                </tr>
+                <tr>
+                    <th>Tanggal</th>
+                    <td><input type="date" name="tanggal" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit" class="submit-btn">Submit</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>
